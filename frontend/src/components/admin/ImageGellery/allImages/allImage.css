@@ -1,0 +1,35 @@
+.image-gelery-containor{
+    display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+     margin-bottom: 20px;
+ }
+ .admin-image-cont{
+     max-height:250px;
+     overflow:hidden;
+     position:relative;
+     height: 100%;
+ }
+ .admin-image-cont img{
+     /* position: absolute; */
+     width: 400px;
+     object-fit: cover;
+     object-position: 0px -30px;
+ }
+ .imgSelectactive{
+    border:4px solid #e31e25;
+        padding:10px;
+}
+/* .hidden{
+    display:none;
+} */
+.all-img-cont-containor {
+    display:flex;
+}
+.all-img-cont-containor .ad-section{
+    width:70%;
+}
+.all-img-cont-containor aside{
+      width:30%;
+    padding:20px;
+}

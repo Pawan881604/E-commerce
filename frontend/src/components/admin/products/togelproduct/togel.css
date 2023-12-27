@@ -1,0 +1,23 @@
+.togel-btn{
+    width: 60px;
+    height:30px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.togel-btn-filter-prod{
+    display: block;
+    position: absolute;
+    height: 20px;
+    top: 50%;
+    left: 0%;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    transform: translate(0%,-50%);
+    width: 30px;
+    background: #fff;
+    border-radius: 100px;
+}
+.togel-btn-filter-prod-active{
+    transform: translate(100%,-50%);
+}
